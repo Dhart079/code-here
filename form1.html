@@ -1,0 +1,43 @@
+<html>
+<body>
+	<p align=center>
+		<center><h1>Example form1</h1></center>
+	</p>
+	<form method="post" action="https://script.google.com/macros/s/AKfycbwQumvEbBa4BQef0gBpaAZLBhoEqaJDCsQtPSJ6opEFs2GxTc1slj6NOTXxDAJHiuLT/exec">
+	<p>Person's Name:
+		<input type="text" name="persons-name" size="40" maxlength="40">
+		<input type="hidden" name="recipient" size="40" maxlength="40">
+	</p>
+	<p>Password:
+		<input type="password" name="password" size="10" maxlength="10">
+	</p>
+	<p>Please Place me on your mailing list: 
+		<input type="checkbox" name="mailing-list" value="yes" checked> 
+	</p>
+	<p>What Country do you Live in ? 
+		<select name="Country">
+			<option value="IND">India
+			<option value="USA">United Status
+			<option value="CA">Canada
+			<option value="FR">France
+			<option value="SPR">Singapore
+		</select> 
+	</p>
+	<p>Type of computer you have:
+		<input type="radio" name="Comp-type" Value="Inteli3" />Intel I3 &nbsp;
+		<input type="radio" name="Comp-type" Value="Inteli5" />Intel I5 &nbsp;
+		<input type="radio" name="Comp-type" Value="Inteli7" checked />Intel I7 &nbsp;
+		<input type="radio" name="Comp-type" Value="AMDFX" />AMD FX
+		<input type="radio" name="Comp-type" Value="AMDATHLON" />AMD ATHLON
+	</p>
+	<p>Comments: <br>
+		<textarea rows="5" cols="50" name="comments"> This is next that can be
+		defaulted into the text area field</textarea>
+	</p>
+	<p>
+		<input type="submit" name="Request" value="Submit This Form">
+		<input type="reset" name="clear" value="Clear Form and Start Over">
+	</p>
+</form>
+</body>
+</html>
